@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    background: white;
+    font-family: sans-serif;
+    background-image:url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabezera{
+    margin: auto;
+    background: transparent;
+    padding:  1rem 0;
+    margin-bottom: 1rem;
+}
+
+.container{
+    width: 85%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.form_register{
+    width: 95%;
+    max-width: 300px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+
+.container_inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+margin-bottom: 15px;
+padding: 15px;
+font-size: 1rem;
+border-radius: 3px;
+border: 1px solid darkgray;
+}
+
+.btn_enviar{
+    background:blueviolet;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.in{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+label{
+    margin-bottom: 0.2rem;
+}
+
+.form_del{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 300px;
+    background: white;
+    border-radius: 7px;
+}
+
+.container{
+        width: 85%;
+        max-width: 850px;
+        margin: 0 auto;
+    
+
+}
+
+.table{
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+}
+
+.table td{
+    padding: 5px 10px;
+    width: 50px;
+}
+
+
+.container_btn{
+    width: 20%;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.btn:link {
+    text-decoration: none;
+    background-color:blueviolet;
+    padding: 10px 40px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 25%;
+    margin-left: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .btn:visited {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+.gen{
+    margin-bottom: 1rem;
+}
+
+.sel{
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.date{
+    width: 10px;
+}
