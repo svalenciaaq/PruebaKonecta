@@ -7,7 +7,8 @@
     date= document.forms["register"]["date"].value;
     gen= document.forms["register"]["gen"].value;
     client = document.forms["register"]["client"].value;
-    sede = document.forms["register"]["sede"]
+    sede = document.forms["register"]["sede"].value;
+
 
 
     if(name ==""){
@@ -53,6 +54,12 @@
             return false;
         }
     }
+
+    if(gen == "notsel"){
+        alert("Seleccione un genero");
+        document.getElementById("gen").focus();
+        return false;
+    }
      
 
   if(client == ""){
@@ -60,10 +67,18 @@
       document.getElementById("client").focus();
       return false;
   }
-   document.getElementById("myForm").submit();
-  
-   
+
+
+  if(sede == "notsel2"){
+    alert("Seleccione una sede");
+    document.getElementById("sede").focus();
+    return false;
 }
+
+   document.getElementById("myForm").submit();
+}
+
+
 
 function calcularEdad(){
     var fecha,año,mes,dia,año1,mes1,dia1,fecha1;

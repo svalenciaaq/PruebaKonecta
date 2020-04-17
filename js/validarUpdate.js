@@ -8,7 +8,7 @@ function validarUpdate(){
     date= document.forms["delete"]["date"].value;
     gen= document.forms["delete"]["gen"].value;
     client = document.forms["delete"]["client"].value;
-    sede = document.forms["delete"]["sede"]
+    sede = document.forms["delete"]["sede"].value;
 
 
     if(name ==""){
@@ -54,6 +54,13 @@ function validarUpdate(){
             return false;
         }
     }
+
+
+    if(gen == "notsel"){
+        alert("Seleccione un genero");
+        document.getElementById("gen").focus();
+        return false;
+    }
      
 
   if(client == ""){
@@ -61,6 +68,16 @@ function validarUpdate(){
       document.getElementById("client").focus();
       return false;
   }
+
+  
+  if(sede == "notsel2"){
+    alert("Seleccione una sede");
+    document.getElementById("sede").focus();
+    return false;
+}
+
+
+
    document.getElementById("formDel").submit();
   
    
